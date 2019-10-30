@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA23998D22DC1CDE00A7AAD5 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA23998C22DC1CDE00A7AAD5 /* NSDate+Extension.swift */; };
+		BA23999122DC583D00A7AAD5 /* HWInstallView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA23998F22DC583D00A7AAD5 /* HWInstallView.m */; };
+		BA23999522DC6E2600A7AAD5 /* AddTokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA23999422DC6E2600A7AAD5 /* AddTokenViewController.swift */; };
+		BA27749A22D8332F0085AAD6 /* TokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27749922D8332F0085AAD6 /* TokenStore.swift */; };
+		BA2774A022D866EA0085AAD6 /* GZCircleInstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27749F22D866EA0085AAD6 /* GZCircleInstallView.swift */; };
+		BA2774A222D86D940085AAD6 /* DisplayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2774A122D86D940085AAD6 /* DisplayTime.swift */; };
+		BA2E18BD22DD99E300195A35 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2E18B922DD99E300195A35 /* MGSwipeTableCell.m */; };
+		BA2E18BE22DD99E300195A35 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2E18BC22DD99E300195A35 /* MGSwipeButton.m */; };
+		BA2E18C122DDA44E00195A35 /* GZAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E18C022DDA44E00195A35 /* GZAlertView.swift */; };
+		BAE58C0322D6CFF0003198C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C0222D6CFF0003198C6 /* AppDelegate.swift */; };
+		BAE58C0522D6CFF0003198C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C0422D6CFF0003198C6 /* ViewController.swift */; };
+		BAE58C0822D6CFF0003198C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE58C0622D6CFF0003198C6 /* Main.storyboard */; };
+		BAE58C0A22D6CFF1003198C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE58C0922D6CFF1003198C6 /* Assets.xcassets */; };
+		BAE58C0D22D6CFF1003198C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE58C0B22D6CFF1003198C6 /* LaunchScreen.storyboard */; };
+		BAE58C1822D6CFF1003198C6 /* QuarkAuthenticatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C1722D6CFF1003198C6 /* QuarkAuthenticatorTests.swift */; };
+		BAE58C2322D6CFF1003198C6 /* QuarkAuthenticatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C2222D6CFF1003198C6 /* QuarkAuthenticatorUITests.swift */; };
+		BAE58C3522D6D261003198C6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C3222D6D261003198C6 /* UIColor+Extension.swift */; };
+		BAE58C3622D6D261003198C6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C3322D6D261003198C6 /* UIView+Extension.swift */; };
+		BAE58C3722D6D261003198C6 /* GZDefineFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C3422D6D261003198C6 /* GZDefineFile.swift */; };
+		BAE58C3A22D6D42A003198C6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C3922D6D42A003198C6 /* RootViewController.swift */; };
+		BAE58C3C22D6D462003198C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C3B22D6D462003198C6 /* MainViewController.swift */; };
+		BAE58C3F22D6E0F5003198C6 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C3E22D6E0F5003198C6 /* MenuView.swift */; };
+		BAE58C4322D70BD1003198C6 /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C4222D70BD1003198C6 /* MenuViewCell.swift */; };
+		BAE58C4522D7156B003198C6 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C4422D7156B003198C6 /* MainCell.swift */; };
+		BAE58C4722D71E6A003198C6 /* AddTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C4622D71E6A003198C6 /* AddTypeView.swift */; };
+		BAE58C8522D7264C003198C6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE58C6F22D7264C003198C6 /* Media.xcassets */; };
+		BAE58C8622D7264C003198C6 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C7222D7264C003198C6 /* UIViewController+Extensions.swift */; };
+		BAE58C8722D7264C003198C6 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C7322D7264C003198C6 /* UIImage+Extensions.swift */; };
+		BAE58C8822D7264C003198C6 /* ScanAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C7422D7264C003198C6 /* ScanAnimation.swift */; };
+		BAE58C8922D7264C003198C6 /* AVMetadataObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C7522D7264C003198C6 /* AVMetadataObject+Extensions.swift */; };
+		BAE58C8A22D7264C003198C6 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C7622D7264C003198C6 /* Platform.swift */; };
+		BAE58C8B22D7264C003198C6 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C7822D7264C003198C6 /* Common.swift */; };
+		BAE58C8C22D7264C003198C6 /* CornerLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C7A22D7264C003198C6 /* CornerLocation.swift */; };
+		BAE58C8D22D7264C003198C6 /* TorchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C7B22D7264C003198C6 /* TorchMode.swift */; };
+		BAE58C8E22D7264C003198C6 /* ScanAnimationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C7C22D7264C003198C6 /* ScanAnimationStyle.swift */; };
+		BAE58C8F22D7264C003198C6 /* HeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C7E22D7264C003198C6 /* HeaderVC.swift */; };
+		BAE58C9022D7264C003198C6 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C7F22D7264C003198C6 /* CameraVC.swift */; };
+		BAE58C9122D7264C003198C6 /* HeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE58C8022D7264C003198C6 /* HeaderVC.xib */; };
+		BAE58C9222D7264C003198C6 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C8122D7264C003198C6 /* ScannerVC.swift */; };
+		BAE58C9322D7264C003198C6 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE58C8322D7264C003198C6 /* ScanView.swift */; };
+		E15A5B34A3C52375FE7A5866 /* Pods_QuarkAuthenticator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D06579C80F591F06D5CE4B9 /* Pods_QuarkAuthenticator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE58C1422D6CFF1003198C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE58BF722D6CFF0003198C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE58BFE22D6CFF0003198C6;
+			remoteInfo = QuarkAuthenticator;
+		};
+		BAE58C1F22D6CFF1003198C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE58BF722D6CFF0003198C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE58BFE22D6CFF0003198C6;
+			remoteInfo = QuarkAuthenticator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D06579C80F591F06D5CE4B9 /* Pods_QuarkAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuarkAuthenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA23998C22DC1CDE00A7AAD5 /* NSDate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		BA23998E22DC583C00A7AAD5 /* QuarkAuthenticator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuarkAuthenticator-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA23998F22DC583D00A7AAD5 /* HWInstallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWInstallView.m; sourceTree = "<group>"; };
+		BA23999022DC583D00A7AAD5 /* HWInstallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWInstallView.h; sourceTree = "<group>"; };
+		BA23999422DC6E2600A7AAD5 /* AddTokenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTokenViewController.swift; sourceTree = "<group>"; };
+		BA27749922D8332F0085AAD6 /* TokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStore.swift; sourceTree = "<group>"; };
+		BA27749F22D866EA0085AAD6 /* GZCircleInstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GZCircleInstallView.swift; sourceTree = "<group>"; };
+		BA2774A122D86D940085AAD6 /* DisplayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTime.swift; sourceTree = "<group>"; };
+		BA2E18B922DD99E300195A35 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTableCell.m; sourceTree = "<group>"; };
+		BA2E18BA22DD99E300195A35 /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeButton.h; sourceTree = "<group>"; };
+		BA2E18BB22DD99E300195A35 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTableCell.h; sourceTree = "<group>"; };
+		BA2E18BC22DD99E300195A35 /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeButton.m; sourceTree = "<group>"; };
+		BA2E18C022DDA44E00195A35 /* GZAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GZAlertView.swift; sourceTree = "<group>"; };
+		BAE58BFF22D6CFF0003198C6 /* QuarkAuthenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuarkAuthenticator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE58C0222D6CFF0003198C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAE58C0422D6CFF0003198C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAE58C0722D6CFF0003198C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE58C0922D6CFF1003198C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE58C0C22D6CFF1003198C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAE58C0E22D6CFF1003198C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE58C1322D6CFF1003198C6 /* QuarkAuthenticatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuarkAuthenticatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE58C1722D6CFF1003198C6 /* QuarkAuthenticatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarkAuthenticatorTests.swift; sourceTree = "<group>"; };
+		BAE58C1922D6CFF1003198C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE58C1E22D6CFF1003198C6 /* QuarkAuthenticatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuarkAuthenticatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE58C2222D6CFF1003198C6 /* QuarkAuthenticatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarkAuthenticatorUITests.swift; sourceTree = "<group>"; };
+		BAE58C2422D6CFF1003198C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE58C3222D6D261003198C6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BAE58C3322D6D261003198C6 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		BAE58C3422D6D261003198C6 /* GZDefineFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZDefineFile.swift; sourceTree = "<group>"; };
+		BAE58C3922D6D42A003198C6 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		BAE58C3B22D6D462003198C6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BAE58C3E22D6E0F5003198C6 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		BAE58C4222D70BD1003198C6 /* MenuViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCell.swift; sourceTree = "<group>"; };
+		BAE58C4422D7156B003198C6 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		BAE58C4622D71E6A003198C6 /* AddTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTypeView.swift; sourceTree = "<group>"; };
+		BAE58C6F22D7264C003198C6 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		BAE58C7022D7264C003198C6 /* SwiftScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftScanner.h; sourceTree = "<group>"; };
+		BAE58C7222D7264C003198C6 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		BAE58C7322D7264C003198C6 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		BAE58C7422D7264C003198C6 /* ScanAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanAnimation.swift; sourceTree = "<group>"; };
+		BAE58C7522D7264C003198C6 /* AVMetadataObject+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVMetadataObject+Extensions.swift"; sourceTree = "<group>"; };
+		BAE58C7622D7264C003198C6 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		BAE58C7822D7264C003198C6 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		BAE58C7A22D7264C003198C6 /* CornerLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerLocation.swift; sourceTree = "<group>"; };
+		BAE58C7B22D7264C003198C6 /* TorchMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorchMode.swift; sourceTree = "<group>"; };
+		BAE58C7C22D7264C003198C6 /* ScanAnimationStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanAnimationStyle.swift; sourceTree = "<group>"; };
+		BAE58C7E22D7264C003198C6 /* HeaderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderVC.swift; sourceTree = "<group>"; };
+		BAE58C7F22D7264C003198C6 /* CameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		BAE58C8022D7264C003198C6 /* HeaderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderVC.xib; sourceTree = "<group>"; };
+		BAE58C8122D7264C003198C6 /* ScannerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		BAE58C8322D7264C003198C6 /* ScanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		C5A3D961200D07466DD14AC9 /* Pods-QuarkAuthenticator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarkAuthenticator.debug.xcconfig"; path = "Target Support Files/Pods-QuarkAuthenticator/Pods-QuarkAuthenticator.debug.xcconfig"; sourceTree = "<group>"; };
+		FEACFAA8232298C16B5AB051 /* Pods-QuarkAuthenticator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarkAuthenticator.release.xcconfig"; path = "Target Support Files/Pods-QuarkAuthenticator/Pods-QuarkAuthenticator.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE58BFC22D6CFF0003198C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15A5B34A3C52375FE7A5866 /* Pods_QuarkAuthenticator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE58C1022D6CFF1003198C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE58C1B22D6CFF1003198C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA27749822D832CB0085AAD6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA27749922D8332F0085AAD6 /* TokenStore.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA2E18B822DD99E300195A35 /* MGSwipeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E18B922DD99E300195A35 /* MGSwipeTableCell.m */,
+				BA2E18BA22DD99E300195A35 /* MGSwipeButton.h */,
+				BA2E18BB22DD99E300195A35 /* MGSwipeTableCell.h */,
+				BA2E18BC22DD99E300195A35 /* MGSwipeButton.m */,
+			);
+			path = MGSwipeTableCell;
+			sourceTree = "<group>";
+		};
+		BA2E18BF22DDA43600195A35 /* GZAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E18C022DDA44E00195A35 /* GZAlertView.swift */,
+			);
+			path = GZAlertView;
+			sourceTree = "<group>";
+		};
+		BAE58BF622D6CFF0003198C6 = {
+			isa = PBXGroup;
+			children = (
+				BAE58C0122D6CFF0003198C6 /* QuarkAuthenticator */,
+				BAE58C1622D6CFF1003198C6 /* QuarkAuthenticatorTests */,
+				BAE58C2122D6CFF1003198C6 /* QuarkAuthenticatorUITests */,
+				BAE58C0022D6CFF0003198C6 /* Products */,
+				E9A74D899C8B6AAD42B34A01 /* Pods */,
+				F94248AB964B0AE489F2C667 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE58C0022D6CFF0003198C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE58BFF22D6CFF0003198C6 /* QuarkAuthenticator.app */,
+				BAE58C1322D6CFF1003198C6 /* QuarkAuthenticatorTests.xctest */,
+				BAE58C1E22D6CFF1003198C6 /* QuarkAuthenticatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE58C0122D6CFF0003198C6 /* QuarkAuthenticator */ = {
+			isa = PBXGroup;
+			children = (
+				BA27749822D832CB0085AAD6 /* ViewModel */,
+				BAE58C4822D7246C003198C6 /* OpenAPI */,
+				BAE58C3D22D6E0DA003198C6 /* PublicView */,
+				BAE58C3822D6D29F003198C6 /* BaseFrame */,
+				BAE58C3022D6D261003198C6 /* LFeatures */,
+				BAE58C0222D6CFF0003198C6 /* AppDelegate.swift */,
+				BAE58C0422D6CFF0003198C6 /* ViewController.swift */,
+				BAE58C0622D6CFF0003198C6 /* Main.storyboard */,
+				BAE58C0922D6CFF1003198C6 /* Assets.xcassets */,
+				BAE58C0B22D6CFF1003198C6 /* LaunchScreen.storyboard */,
+				BAE58C0E22D6CFF1003198C6 /* Info.plist */,
+			);
+			path = QuarkAuthenticator;
+			sourceTree = "<group>";
+		};
+		BAE58C1622D6CFF1003198C6 /* QuarkAuthenticatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE58C1722D6CFF1003198C6 /* QuarkAuthenticatorTests.swift */,
+				BAE58C1922D6CFF1003198C6 /* Info.plist */,
+			);
+			path = QuarkAuthenticatorTests;
+			sourceTree = "<group>";
+		};
+		BAE58C2122D6CFF1003198C6 /* QuarkAuthenticatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE58C2222D6CFF1003198C6 /* QuarkAuthenticatorUITests.swift */,
+				BAE58C2422D6CFF1003198C6 /* Info.plist */,
+			);
+			path = QuarkAuthenticatorUITests;
+			sourceTree = "<group>";
+		};
+		BAE58C3022D6D261003198C6 /* LFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E18BF22DDA43600195A35 /* GZAlertView */,
+				BAE58C3122D6D261003198C6 /* Extension */,
+				BAE58C3422D6D261003198C6 /* GZDefineFile.swift */,
+				BA2774A122D86D940085AAD6 /* DisplayTime.swift */,
+			);
+			path = LFeatures;
+			sourceTree = "<group>";
+		};
+		BAE58C3122D6D261003198C6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BAE58C3222D6D261003198C6 /* UIColor+Extension.swift */,
+				BAE58C3322D6D261003198C6 /* UIView+Extension.swift */,
+				BA23998C22DC1CDE00A7AAD5 /* NSDate+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BAE58C3822D6D29F003198C6 /* BaseFrame */ = {
+			isa = PBXGroup;
+			children = (
+				BAE58C3922D6D42A003198C6 /* RootViewController.swift */,
+				BAE58C3B22D6D462003198C6 /* MainViewController.swift */,
+				BA23999422DC6E2600A7AAD5 /* AddTokenViewController.swift */,
+			);
+			path = BaseFrame;
+			sourceTree = "<group>";
+		};
+		BAE58C3D22D6E0DA003198C6 /* PublicView */ = {
+			isa = PBXGroup;
+			children = (
+				BAE58C3E22D6E0F5003198C6 /* MenuView.swift */,
+				BAE58C4222D70BD1003198C6 /* MenuViewCell.swift */,
+				BAE58C4422D7156B003198C6 /* MainCell.swift */,
+				BAE58C4622D71E6A003198C6 /* AddTypeView.swift */,
+				BA27749F22D866EA0085AAD6 /* GZCircleInstallView.swift */,
+			);
+			path = PublicView;
+			sourceTree = "<group>";
+		};
+		BAE58C4822D7246C003198C6 /* OpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E18B822DD99E300195A35 /* MGSwipeTableCell */,
+				BAE58C6E22D7264C003198C6 /* SwiftScanner */,
+				BA23999022DC583D00A7AAD5 /* HWInstallView.h */,
+				BA23998F22DC583D00A7AAD5 /* HWInstallView.m */,
+				BA23998E22DC583C00A7AAD5 /* QuarkAuthenticator-Bridging-Header.h */,
+			);
+			path = OpenAPI;
+			sourceTree = "<group>";
+		};
+		BAE58C6E22D7264C003198C6 /* SwiftScanner */ = {
+			isa = PBXGroup;
+			children = (
+				BAE58C6F22D7264C003198C6 /* Media.xcassets */,
+				BAE58C7022D7264C003198C6 /* SwiftScanner.h */,
+				BAE58C7122D7264C003198C6 /* Extensions */,
+				BAE58C7722D7264C003198C6 /* Common */,
+				BAE58C7922D7264C003198C6 /* Model */,
+				BAE58C7D22D7264C003198C6 /* Controllers */,
+				BAE58C8222D7264C003198C6 /* Views */,
+			);
+			path = SwiftScanner;
+			sourceTree = "<group>";
+		};
+		BAE58C7122D7264C003198C6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BAE58C7222D7264C003198C6 /* UIViewController+Extensions.swift */,
+				BAE58C7322D7264C003198C6 /* UIImage+Extensions.swift */,
+				BAE58C7422D7264C003198C6 /* ScanAnimation.swift */,
+				BAE58C7522D7264C003198C6 /* AVMetadataObject+Extensions.swift */,
+				BAE58C7622D7264C003198C6 /* Platform.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BAE58C7722D7264C003198C6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BAE58C7822D7264C003198C6 /* Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BAE58C7922D7264C003198C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAE58C7A22D7264C003198C6 /* CornerLocation.swift */,
+				BAE58C7B22D7264C003198C6 /* TorchMode.swift */,
+				BAE58C7C22D7264C003198C6 /* ScanAnimationStyle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAE58C7D22D7264C003198C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BAE58C7E22D7264C003198C6 /* HeaderVC.swift */,
+				BAE58C7F22D7264C003198C6 /* CameraVC.swift */,
+				BAE58C8022D7264C003198C6 /* HeaderVC.xib */,
+				BAE58C8122D7264C003198C6 /* ScannerVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BAE58C8222D7264C003198C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BAE58C8322D7264C003198C6 /* ScanView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9A74D899C8B6AAD42B34A01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5A3D961200D07466DD14AC9 /* Pods-QuarkAuthenticator.debug.xcconfig */,
+				FEACFAA8232298C16B5AB051 /* Pods-QuarkAuthenticator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F94248AB964B0AE489F2C667 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D06579C80F591F06D5CE4B9 /* Pods_QuarkAuthenticator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE58BFE22D6CFF0003198C6 /* QuarkAuthenticator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE58C2722D6CFF1003198C6 /* Build configuration list for PBXNativeTarget "QuarkAuthenticator" */;
+			buildPhases = (
+				B5A001D90960FB54B50C896B /* [CP] Check Pods Manifest.lock */,
+				BAE58BFB22D6CFF0003198C6 /* Sources */,
+				BAE58BFC22D6CFF0003198C6 /* Frameworks */,
+				BAE58BFD22D6CFF0003198C6 /* Resources */,
+				039D1FA1A98B5B6E28DF325D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuarkAuthenticator;
+			productName = QuarkAuthenticator;
+			productReference = BAE58BFF22D6CFF0003198C6 /* QuarkAuthenticator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE58C1222D6CFF1003198C6 /* QuarkAuthenticatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE58C2A22D6CFF1003198C6 /* Build configuration list for PBXNativeTarget "QuarkAuthenticatorTests" */;
+			buildPhases = (
+				BAE58C0F22D6CFF1003198C6 /* Sources */,
+				BAE58C1022D6CFF1003198C6 /* Frameworks */,
+				BAE58C1122D6CFF1003198C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE58C1522D6CFF1003198C6 /* PBXTargetDependency */,
+			);
+			name = QuarkAuthenticatorTests;
+			productName = QuarkAuthenticatorTests;
+			productReference = BAE58C1322D6CFF1003198C6 /* QuarkAuthenticatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAE58C1D22D6CFF1003198C6 /* QuarkAuthenticatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE58C2D22D6CFF1003198C6 /* Build configuration list for PBXNativeTarget "QuarkAuthenticatorUITests" */;
+			buildPhases = (
+				BAE58C1A22D6CFF1003198C6 /* Sources */,
+				BAE58C1B22D6CFF1003198C6 /* Frameworks */,
+				BAE58C1C22D6CFF1003198C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE58C2022D6CFF1003198C6 /* PBXTargetDependency */,
+			);
+			name = QuarkAuthenticatorUITests;
+			productName = QuarkAuthenticatorUITests;
+			productReference = BAE58C1E22D6CFF1003198C6 /* QuarkAuthenticatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE58BF722D6CFF0003198C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = lsw;
+				TargetAttributes = {
+					BAE58BFE22D6CFF0003198C6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					BAE58C1222D6CFF1003198C6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BAE58BFE22D6CFF0003198C6;
+					};
+					BAE58C1D22D6CFF1003198C6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BAE58BFE22D6CFF0003198C6;
+					};
+				};
+			};
+			buildConfigurationList = BAE58BFA22D6CFF0003198C6 /* Build configuration list for PBXProject "QuarkAuthenticator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE58BF622D6CFF0003198C6;
+			productRefGroup = BAE58C0022D6CFF0003198C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE58BFE22D6CFF0003198C6 /* QuarkAuthenticator */,
+				BAE58C1222D6CFF1003198C6 /* QuarkAuthenticatorTests */,
+				BAE58C1D22D6CFF1003198C6 /* QuarkAuthenticatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE58BFD22D6CFF0003198C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE58C0D22D6CFF1003198C6 /* LaunchScreen.storyboard in Resources */,
+				BAE58C0A22D6CFF1003198C6 /* Assets.xcassets in Resources */,
+				BAE58C8522D7264C003198C6 /* Media.xcassets in Resources */,
+				BAE58C9122D7264C003198C6 /* HeaderVC.xib in Resources */,
+				BAE58C0822D6CFF0003198C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE58C1122D6CFF1003198C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE58C1C22D6CFF1003198C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		039D1FA1A98B5B6E28DF325D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuarkAuthenticator/Pods-QuarkAuthenticator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuarkAuthenticator/Pods-QuarkAuthenticator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuarkAuthenticator/Pods-QuarkAuthenticator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5A001D90960FB54B50C896B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuarkAuthenticator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE58BFB22D6CFF0003198C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA27749A22D8332F0085AAD6 /* TokenStore.swift in Sources */,
+				BAE58C8B22D7264C003198C6 /* Common.swift in Sources */,
+				BA2E18BE22DD99E300195A35 /* MGSwipeButton.m in Sources */,
+				BAE58C8D22D7264C003198C6 /* TorchMode.swift in Sources */,
+				BA2E18BD22DD99E300195A35 /* MGSwipeTableCell.m in Sources */,
+				BA2774A022D866EA0085AAD6 /* GZCircleInstallView.swift in Sources */,
+				BAE58C8922D7264C003198C6 /* AVMetadataObject+Extensions.swift in Sources */,
+				BAE58C3C22D6D462003198C6 /* MainViewController.swift in Sources */,
+				BAE58C8F22D7264C003198C6 /* HeaderVC.swift in Sources */,
+				BAE58C9022D7264C003198C6 /* CameraVC.swift in Sources */,
+				BAE58C4722D71E6A003198C6 /* AddTypeView.swift in Sources */,
+				BA2E18C122DDA44E00195A35 /* GZAlertView.swift in Sources */,
+				BA2774A222D86D940085AAD6 /* DisplayTime.swift in Sources */,
+				BAE58C3F22D6E0F5003198C6 /* MenuView.swift in Sources */,
+				BA23999122DC583D00A7AAD5 /* HWInstallView.m in Sources */,
+				BAE58C3522D6D261003198C6 /* UIColor+Extension.swift in Sources */,
+				BAE58C8622D7264C003198C6 /* UIViewController+Extensions.swift in Sources */,
+				BAE58C0522D6CFF0003198C6 /* ViewController.swift in Sources */,
+				BAE58C8E22D7264C003198C6 /* ScanAnimationStyle.swift in Sources */,
+				BAE58C4522D7156B003198C6 /* MainCell.swift in Sources */,
+				BAE58C9222D7264C003198C6 /* ScannerVC.swift in Sources */,
+				BA23998D22DC1CDE00A7AAD5 /* NSDate+Extension.swift in Sources */,
+				BAE58C8C22D7264C003198C6 /* CornerLocation.swift in Sources */,
+				BAE58C3A22D6D42A003198C6 /* RootViewController.swift in Sources */,
+				BAE58C4322D70BD1003198C6 /* MenuViewCell.swift in Sources */,
+				BAE58C9322D7264C003198C6 /* ScanView.swift in Sources */,
+				BAE58C8822D7264C003198C6 /* ScanAnimation.swift in Sources */,
+				BA23999522DC6E2600A7AAD5 /* AddTokenViewController.swift in Sources */,
+				BAE58C3622D6D261003198C6 /* UIView+Extension.swift in Sources */,
+				BAE58C8722D7264C003198C6 /* UIImage+Extensions.swift in Sources */,
+				BAE58C3722D6D261003198C6 /* GZDefineFile.swift in Sources */,
+				BAE58C8A22D7264C003198C6 /* Platform.swift in Sources */,
+				BAE58C0322D6CFF0003198C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE58C0F22D6CFF1003198C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE58C1822D6CFF1003198C6 /* QuarkAuthenticatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE58C1A22D6CFF1003198C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE58C2322D6CFF1003198C6 /* QuarkAuthenticatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE58C1522D6CFF1003198C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE58BFE22D6CFF0003198C6 /* QuarkAuthenticator */;
+			targetProxy = BAE58C1422D6CFF1003198C6 /* PBXContainerItemProxy */;
+		};
+		BAE58C2022D6CFF1003198C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE58BFE22D6CFF0003198C6 /* QuarkAuthenticator */;
+			targetProxy = BAE58C1F22D6CFF1003198C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAE58C0622D6CFF0003198C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE58C0722D6CFF0003198C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE58C0B22D6CFF1003198C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE58C0C22D6CFF1003198C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE58C2522D6CFF1003198C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAE58C2622D6CFF1003198C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE58C2822D6CFF1003198C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A3D961200D07466DD14AC9 /* Pods-QuarkAuthenticator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = T6CAH3K5L7;
+				INFOPLIST_FILE = QuarkAuthenticator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = quark.QuarkAuthenticator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = quarkAuthenticator_dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "QuarkAuthenticator/OpenAPI/QuarkAuthenticator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BAE58C2922D6CFF1003198C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEACFAA8232298C16B5AB051 /* Pods-QuarkAuthenticator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = T6CAH3K5L7;
+				INFOPLIST_FILE = QuarkAuthenticator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = quark.QuarkAuthenticator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = quarkAuthenticator_dis;
+				SWIFT_OBJC_BRIDGING_HEADER = "QuarkAuthenticator/OpenAPI/QuarkAuthenticator-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BAE58C2B22D6CFF1003198C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H2FCGZ9BK;
+				INFOPLIST_FILE = QuarkAuthenticatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = quark.QuarkAuthenticatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuarkAuthenticator.app/QuarkAuthenticator";
+			};
+			name = Debug;
+		};
+		BAE58C2C22D6CFF1003198C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H2FCGZ9BK;
+				INFOPLIST_FILE = QuarkAuthenticatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = quark.QuarkAuthenticatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuarkAuthenticator.app/QuarkAuthenticator";
+			};
+			name = Release;
+		};
+		BAE58C2E22D6CFF1003198C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H2FCGZ9BK;
+				INFOPLIST_FILE = QuarkAuthenticatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = quark.QuarkAuthenticatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuarkAuthenticator;
+			};
+			name = Debug;
+		};
+		BAE58C2F22D6CFF1003198C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H2FCGZ9BK;
+				INFOPLIST_FILE = QuarkAuthenticatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = quark.QuarkAuthenticatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuarkAuthenticator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE58BFA22D6CFF0003198C6 /* Build configuration list for PBXProject "QuarkAuthenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE58C2522D6CFF1003198C6 /* Debug */,
+				BAE58C2622D6CFF1003198C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE58C2722D6CFF1003198C6 /* Build configuration list for PBXNativeTarget "QuarkAuthenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE58C2822D6CFF1003198C6 /* Debug */,
+				BAE58C2922D6CFF1003198C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE58C2A22D6CFF1003198C6 /* Build configuration list for PBXNativeTarget "QuarkAuthenticatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE58C2B22D6CFF1003198C6 /* Debug */,
+				BAE58C2C22D6CFF1003198C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE58C2D22D6CFF1003198C6 /* Build configuration list for PBXNativeTarget "QuarkAuthenticatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE58C2E22D6CFF1003198C6 /* Debug */,
+				BAE58C2F22D6CFF1003198C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE58BF722D6CFF0003198C6 /* Project object */;
+}

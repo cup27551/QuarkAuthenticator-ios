@@ -1,0 +1,13 @@
+platform :ios, '9.0'
+
+target 'QuarkAuthenticator' do
+     use_frameworks!
+     pod 'MBProgressHUD'
+     pod 'MJRefresh'
+     pod 'Alamofire'
+     pod 'NVActivityIndicatorView'
+     pod 'SwiftyJSON'
+     pod 'RxSwift'
+     pod 'RxCocoa'
+     pod 'OneTimePassword'
+end
